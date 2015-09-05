@@ -3,7 +3,8 @@
 $path = "tests/";
 $diretorio = dir($path);
 
-echo "Lista de arquivos no diretório {$path}: <br>";
+echo "<div class='header color4'>Lista de arquivos no diretório {$path}:</div>";
+echo " <br>";
 echo "<ul>";
 while( $arquivo = $diretorio->read() ) {
 	if( $arquivo != '..' && $arquivo != '.' )

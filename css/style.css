@@ -1,0 +1,57 @@
+body {
+	background: #CFF09E;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	padding: 10px;
+}
+
+.list {
+	border-radius: 4px;
+	width: 25%;
+}
+
+.list ul {
+	list-style: none;
+}
+
+.list li {
+	margin-bottom: 6px; 
+	width: 100%;
+	background: #79BD9A;
+	padding: 5px 10px 5px 10px; 
+}
+
+.list a:hover {
+	padding: 3px; 
+	background: #A8DBA8;
+}
+
+.list a:link, a:visited {
+	text-decoration: none;
+}
+
+.description {
+
+}
+.color1 {
+	background: #A8DBA8;
+	
+}
+.color2 {
+	background: #79BD9A;
+	
+}
+.color3 {
+	background: #3B8686;
+	
+}
+.color4 {
+	background: #0B486B;
+	color: white;
+}
+.color5 {
+	background: #CFF09E;	
+}
