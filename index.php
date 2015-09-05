@@ -1,4 +1,6 @@
 <meta charset="utf-8">
-<?php 
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
-include 'autoload.php';
+<div class="list">
+<?php include ('autoload.php'); ?>
+</div>
